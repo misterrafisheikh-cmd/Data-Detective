@@ -47,6 +47,28 @@ PostgreSQL, SQL, Python, Pandas, Matplotlib, Google Colab, Git, and GitHub.
 
 The headline 40.63% revenue increase is highly sensitive to one unusually large transaction. This investigation illustrates the importance of validating aggregate metrics, examining outliers, and testing whether conclusions remain stable under alternative assumptions.
 
+
+## Key Visualizations
+
+### Revenue Sensitivity Analysis
+
+The observed revenue increase was highly influenced by one unusually large invoice. Excluding invoice 581483 for sensitivity analysis reduces the December revenue growth from 40.63% to approximately 3.54%.
+
+![Revenue Sensitivity Analysis](visuals/revenue_sensitivity.png)
+
+### Monthly Revenue Trend
+
+December 2011 is incomplete in the available dataset, with recorded transactions ending on December 9.
+
+![Monthly Revenue](visuals/monthly_revenue.png)
+
+### Top Product Revenue Increases
+
+Product-level revenue changes between November 1–9 and December 1–9, 2011. The results should be interpreted alongside the unusually large invoice investigation.
+
+![Top Product Revenue Increases](visuals/top_product_revenue_increases.png)
+
+
 ## Dataset
 
 UCI Machine Learning Repository — Online Retail dataset:
